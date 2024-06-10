@@ -13,7 +13,7 @@ function App() {
     fetch('https://y4z1bu6eld.execute-api.us-west-2.amazonaws.com/sensor_records/node-records-summary', {
       method: 'POST',
       headers: {
-        'Authorization': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJzdWIiOiJwcml2YWN5QGFwcGxpZWRwYXJ0aWNsZXRlY2hub2xvZ3kuY29tIiwianRpIjoiYTAzNTk4MzUtOGM4OS00YTQzLWE4OGQtMDU4N2NiODg5ZWU1IiwiaWF0IjoxNzE3OTk1NjcwLCJyb2wiOiJhcGlfYWNjZXNzIiwiaWQiOiI4MWFiZDNlNi1mNDdiLTQxMmMtYmJmZC0xNmZhNjk2ZmMyMmIiLCJzZWN1cml0eVByb2ZpbGUiOiIxIiwidGVuYW50SWQiOiI0MiIsIm5iZiI6MTcxNzk5NTY2OSwiZXhwIjoxNzE3OTk3NDY5LCJpc3MiOiJ3ZWJBcGkiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo1MDAxLyJ9.V1j3VFykbWhMOGDtFJj12UgqfV2uOQtY_CBGoJfsjl4',
+        'Authorization': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJzdWIiOiJwcml2YWN5QGFwcGxpZWRwYXJ0aWNsZXRlY2hub2xvZ3kuY29tIiwianRpIjoiNTc4NDcwYzQtZGQyMS00ZDRkLWExNDgtMTY0ZDM0MjJiOGExIiwiaWF0IjoxNzE4MDAxMjM3LCJyb2wiOiJhcGlfYWNjZXNzIiwiaWQiOiI4MWFiZDNlNi1mNDdiLTQxMmMtYmJmZC0xNmZhNjk2ZmMyMmIiLCJzZWN1cml0eVByb2ZpbGUiOiIxIiwidGVuYW50SWQiOiI0MiIsIm5iZiI6MTcxODAwMTIzNywiZXhwIjoxNzE4MDAzMDM3LCJpc3MiOiJ3ZWJBcGkiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo1MDAxLyJ9.748ZGEWgWntNe5s_R6N2vhcQUDIcKIbw72B25Bt-qwE',
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({"analyteId": 7, "dateFilterType" : 1,  "endDate": 1716486239 , "endPointId": 1712 , "includeVideo": 0 ,"startDate": 1716444000})
